@@ -1,6 +1,6 @@
 export function loadMenu() {
     const content = document.getElementById("content");
-    const button = document.querySelector(".button");
+    const button = document.querySelector(".menuButton");
     button.addEventListener('click', function() {
 
         content.innerHTML = ""
