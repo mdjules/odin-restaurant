@@ -30,7 +30,7 @@ button {
 }
 
 .intro {
-    position: absolute;
+    position: fixed;
     display: inline-block;
     color: #f7b928;
     font-size: clamp(24px, 5vw, 60px);
