@@ -1,6 +1,6 @@
-export function loadAbout() {
+export function loadContact() {
     const content = document.getElementById('content')
-    const button = document.querySelector(".aboutButton")
+    const button = document.querySelector(".contactButton")
     
     button.addEventListener('click', function() {
         content.innerHTML = ""
