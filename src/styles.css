@@ -1,4 +1,36 @@
+body {
+    margin: 0px
+}
+
 .homepage-image {
     width: 100%;
     height: auto;
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: #c5aa6a;
+    height: 3em;
+}
+
+button {
+    border-radius: 10px;
+}
+
+#content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    position: absolute;
+    display: inline-block;
+    color: #f7b928;
+    font-size: clamp(24px, 5vw, 60px);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2));
+    transform: translateY(300%); 
 }
