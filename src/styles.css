@@ -11,12 +11,28 @@ body {
 nav {
     display: flex;
     justify-content: center;
-    gap: 5px;
     background-color: #c5aa6a;
-    height: 3em;
+    height: 100px;
     position: fixed;
     z-index: 999;
     width: 100%;
+    gap: 50px;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+nav button {
+    background-color: #f7b928;
+    border: 0px;
+    height: 4em;
+    width: 6em;
+    font-weight: bold;
+
+}
+
+nav button:hover {
+    border: 2px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.6);
 }
 
 button {
@@ -34,6 +50,7 @@ button {
     display: inline-block;
     color: #f7b928;
     font-size: clamp(24px, 5vw, 60px);
+    font-weight: bold;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2));
     transform: translateY(300%); 
 }
