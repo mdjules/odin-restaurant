@@ -2,6 +2,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    background-color: #FFE4B5;
 }
 
 .homepage-image {
