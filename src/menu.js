@@ -14,9 +14,9 @@ export function loadMenu() {
         content.appendChild(menuContainer)
 
         const menuItems = [
-            {name: "Spaghetti and Meatballs", image: image1},
-            {name: "Chicken Parm", image: image2},
-            {name: "Caesar Salad", image: image3}   
+            {name: "Spaghetti and Meatballs", image: image1, price: "$15"},
+            {name: "Chicken Parm", image: image2, price: "$25"},
+            {name: "Caesar Salad", image: image3, price: "$13"}   
 
         ];
 
@@ -29,7 +29,7 @@ export function loadMenu() {
             img.classList.add('menu-image');
 
             const name = document.createElement('h3');
-            name.textContent = item.name;
+            name.textContent = item.name + " - " + item.price;
 
             itemContainer.appendChild(name);
             itemContainer.appendChild(img);

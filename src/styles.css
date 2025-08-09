@@ -56,7 +56,9 @@ button {
     font-size: clamp(24px, 5vw, 60px);
     font-weight: bold;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2));
-    transform: translateY(300%); 
+    transform: translateY(200%); 
+    font-family:  cursive; 
+    white-space: pre-line;
 }
 
 .menuContainer {
@@ -76,6 +78,7 @@ button {
     align-items: center;
     text-align: center;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 .itemContainer img {

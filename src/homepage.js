@@ -8,7 +8,7 @@ export function pageLoad() {
     const intro = document.createElement('div');
     intro.classList.add('intro');
 
-    intro.textContent = "Hello my restuarant is great!"
+    intro.textContent = "Welcome to That Guy's Italian Restaurant! \nEstablished since That Guy made this website!"
 
     content.appendChild(intro);
 
